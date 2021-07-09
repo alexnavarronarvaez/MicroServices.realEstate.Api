@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{5933C89A-BD3C-4F24-B514-A920647BC51A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{D4AFC2FC-76C6-4247-9C33-B3A93D793203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infraestructure", "3.Infraestructure", "{000031F2-F93C-4D7B-B9B7-9DA17CC3FCDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Common", "4.Common", "{26A2C9D6-0FCE-4BD4-9F9C-6921D81700CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Test", "5.Test", "{16AC4760-D5E9-4D2F-99D2-067A99336B5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.RealEstate.WebApi", "Application.RealEstate.WebApi\Application.RealEstate.WebApi.csproj", "{BD7AA2CB-4E41-4346-9FCC-40C7CF357340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD7AA2CB-4E41-4346-9FCC-40C7CF357340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7AA2CB-4E41-4346-9FCC-40C7CF357340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7AA2CB-4E41-4346-9FCC-40C7CF357340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7AA2CB-4E41-4346-9FCC-40C7CF357340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD7AA2CB-4E41-4346-9FCC-40C7CF357340} = {5933C89A-BD3C-4F24-B514-A920647BC51A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35E2C0E6-3E4C-4CCB-BEA1-188FDF307605}
+	EndGlobalSection
+EndGlobal
